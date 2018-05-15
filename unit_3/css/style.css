@@ -10,36 +10,34 @@ body {background: #0f4dbc;
 h1, p {color: #ffa488;
 }
 
-img {
-	width: 100%;
+.head {
+	width: 1900px;
 }
 
+.rise {
+	width: 1900px;
+}
+
+
 .door {
-	width: 960px;
+	width: 800px;
 }
 
 .fn4m {
-	width: 960px;
-	margin-left: 960px;
-	margin-top: -544px;
+	width: 800px;
 }
 
 .todmorden {
-	width: 960px;
+	width: 800px;
 }
 
 .into {
-	width: 960px;
-	margin-left: 960px;
-	margin-top: -544px;
+	width: 800px;
 }
 
 .bma {
-	width: 960px;
+	width: 800px;
 }
 
 .seen {
-	width: 960px;
-	margin-left: 960px;
-	margin-top: -544px;
 }

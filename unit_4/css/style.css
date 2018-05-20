@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	text-align: center;
+	font-family: montserrat-medium;
+	src: url('desktop:/jaynelimited.github.io/unit_4/font/montserrat');
+	font-size: 60px ;
+	line-height: 1.5em ;
+	margin: 2em ;
+}
+
+body {background: #0f4dbc;
+}
+
+h1, p {color: #ffa488;
+}
+
+.head {
+	width: 1900px;
+}
+
+.rise {
+	width: 1900px;
+}
+
+
+.door {
+	width: 800px;
+}
+
+.fn4m {
+	width: 800px;
+}
+
+.todmorden {
+	width: 800px;
+}
+
+.into {
+	width: 800px;
+}
+
+.bma {
+	width: 800px;
+}
+
+.seen {
+}

@@ -7,9 +7,9 @@ p {
 	text-align: center;
 	font-family: montserrat-medium;
 	src: url('desktop:/jaynelimited.github.io/unit_4/font/montserrat');
-	font-size: 60px ;
-	line-height: 1.5em ;
-	margin: 2em ;
+	font-size: 60px;
+	line-height: 1.5em;
+	margin: 2em;
 }
 
 body {background: #0f4dbc;
@@ -22,6 +22,10 @@ nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
 	padding: 20px;
+	text-align: center;
+	font-family: montserrat-medium;
+	src: url('desktop:/jaynelimited.github.io/unit_4/font/montserrat');
+	font-size: 60px;
 }
 
 header {

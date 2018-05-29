@@ -1,0 +1,128 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	text-align: center;
+	font-family: montserrat-medium;
+	src: url('desktop:/jaynelimited.github.io/unit_4/font/montserrat');
+	font-size: 60px ;
+	line-height: 1.5em ;
+	margin: 2em ;
+}
+
+body {background: #0f4dbc;
+}
+
+h1, p {color: #ffa488;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.one {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.rise {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.two {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.door {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.fn4m {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.three {background-color: #FFE2B8;
+		border: 1px black solid;
+		padding: 20px;
+}
+
+.nel {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.four {background-color: #FFE2B8;
+		border: 1px black solid;
+		padding: 20px;
+}
+
+.todmorden {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.into {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.bma {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.seen {border: 1px black solid;
+		padding: 20px;
+		background-color: #E89C6C;
+}
+
+.five {background-color: #FFE2B8;
+		border: 1px black solid;
+		padding: 20px;
+}
+
+.altus {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.six {background-color: #FFE2B8;
+		border: 1px black solid;
+		padding: 20px;
+}
+
+.waf {
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #E89C6C;
+}
+
+.footer{
+	border: 1px black solid;
+	padding: 20px;
+	background-color: #FF957E;
+}

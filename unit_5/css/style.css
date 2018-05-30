@@ -3,10 +3,20 @@
 	margin: 0;
 }
 
+li { 
+	display: inline-block; display: inline; float: left;
+	padding: 10px; 
+	color: #7C785B;
+	font-family: montserrat-medium;
+	src: url('desktop:/jaynelimited.github.io/unit_4/font/montserrat');
+	font-size: 40px;
+
+}
+
 nav {
 	background-color: #FFED74;
 	border: 1px black solid;
-    padding: 20px;
+    padding: 100px;
 }
 
 p {
@@ -24,22 +34,10 @@ header {
 	padding: 20px;
 }
 
-.one {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 .rise {
 	border: 1px black solid;
 	padding: 20px;
 	background-color: #E89C6C;
-}
-
-.two {
-	background-color: ;
-	border: 1px black solid;
-	padding: 20px;
 }
 
 .door {
@@ -54,21 +52,10 @@ header {
 	background-color: 
 }
 
-.three { 
-		border: 1px black solid;
-		padding: 40px;
-		background-color: #E89C6C;
-}
-
 .nel{ 
 		border: 1px black solid;
 		padding: 40px;
 		background-color: #E89C6C;
-}
-
-.four {background-color: #E89C6C;
-		border: 1px black solid;
-		padding: 20px;
 }
 
 .todmorden {
@@ -92,11 +79,6 @@ header {
 .seen {border: 1px black solid;
 		padding: 20px;
 		background-color: #E89C6C;
-}
-
-.five {background-color: #FFE2B8;
-		border: 1px black solid;
-		padding: 20px;
 }
 
 .altus {

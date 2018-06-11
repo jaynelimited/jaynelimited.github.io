@@ -1,0 +1,118 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	/*background-color: #ff0089;*/
+	/*height: 10px;*/
+	/*font-size: 16px; 1em = 16px*/
+	/*position: relative;*/
+}
+
+header {
+	padding:0px 0px;
+}
+
+nav {
+	background-color: #0f4dbc;
+	min-height: 200px;
+	padding: 200px;
+	text-align: center;
+	padding: 60px;
+}
+
+nav a {	
+		font-family: montserrat;
+		src: url('desktop:/jaynelimited.github.io/unit_4/font/montserrat');
+		font-weight: medium;
+		font-size: 60px;
+		/*background-color: #f1c207;*/
+		color: #fda486;
+		padding: 50px;
+		margin: 20px;
+		text-decoration: none;
+}
+
+main {
+	background-color: #F1E9E4;
+	color:#3C3C3C;
+	padding:50px 0;
+	clear: both;
+}
+
+section{
+	padding:50px 0;
+}
+
+footer{
+	font-family: montserrat;
+	src: url('desktop:/jaynelimited.github.io/unit_4/font/montserrat');
+	background-size: cover;
+	text-align: center;
+	font-size: 40px;
+	background: #0f4dbc;
+	color: #fda486;;
+	height: 140px;
+	padding:70px 0;
+	clear: both;
+}
+
+/*h1 {
+	font-family: montserrat;
+	src: url('desktop:/jaynelimited.github.io/unit_4/font/montserrat');
+	font-weight: regular;
+	font-size:180px;
+	text-align: center;
+	color:#fda486;
+	margin:200px 0 0;
+	background-color: #f1c207;
+}*/
+
+h3, h4 {
+	font-family: 'montserrat', 'Arial', sans-serif;
+}
+
+h3 {
+	font-size:70px;
+	text-align:left;
+	padding: 20px;
+	margin: 10px;
+}
+
+h4 {
+	font-size:40px;
+	text-align:left;
+	padding: 20px;
+	margin: 10px;
+}
+
+
+img {
+	width:50%;
+}
+
+a:hover {
+	color: #f1c207;
+}
+
+.door {
+	float: left;
+}
+
+.fn4m {
+	.float: right;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
+
+

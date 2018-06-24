@@ -26,7 +26,7 @@ nav {
 }
 
 nav a {
-		font-size: 20px;
+		font-size: 1.25em;
 		font-weight: 400;
 		color: #fda486;
 		padding: 1em 2em;
@@ -44,12 +44,12 @@ footer {
 	font: Montserrat;
 	background-size: cover;
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: 900;
 	background: #0f4dbc;
 	color: #fda486;;
-	height: 140px;
-	padding:70px 0;
+	height: 5em;
+	padding:2.5em 0;
 	clear: both;
 }
 
@@ -60,31 +60,31 @@ nav, h1, h3, p, footer {
 
 h1 {
 	font-weight: 500;
-    width: 640px;
+    width: 50%;
     margin: auto;
 }
 
 h3 {
 	color: white;
-	font-size:30px;
+	font-size:1.875em;
 	font-weight: 500;
 	text-align:left;
-	letter-spacing: -1px;
+	letter-spacing: -0.0125em;
 	position: absolute;
-	top: 20px;
-	left: 20px;
+	top: .6em;
+	left: .6em;
 }
 
 p {
 	color: white;
-	font-size:22px;
+	font-size:1.375em;
 	font-weight: 300;
 	text-align:left;
 /*	padding: 0 20px;*/
 /*	margin: 40px;*/
 	position: absolute;
-	top: 60px;
-	left: 20px;
+	top: 2.8em;
+	left: .8em;
 }
 
 
@@ -139,4 +139,67 @@ a:hover {
 #FN4M {
 	width:50%;
 	float: left;
+}
+
+#tablet {
+	display: none;
+}
+
+@media only screen and (max-width: 780px) {
+	header img {
+	width: 18%;
+	position: center;
+	padding: 1em 2em;
+	margin: 1em;
+}
+
+nav a {
+	float: none;
+	width: auto;
+	padding: 1em 1.5em;
+	display: none;
+}
+
+#tablet {
+	display: block;
+}
+
+nav:hover a {
+	display: block;
+}
+
+h3 {
+	display: none;
+}
+
+p {
+	display: none;
+}
+
+footer{
+	font-size: .9em;
+}
+
+@media only screen and (max-width: 480px) {
+	header img {
+	width: 26%;
+	position: center;
+	padding: 1em 2em;
+	margin: 1em;
+}
+
+h1 {
+	width: 70.2%;
+	font-size: .9em;
+}
+
+	#door {
+		float: none;
+		width:auto;
+	}
+
+	#FN4M {
+		float: none;
+		width:auto;
+	}
 }

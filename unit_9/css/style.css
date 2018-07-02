@@ -1,0 +1,237 @@
+@font-face { 
+	font-family: 'Montserrat'; src: url('../font/Montserrat'); }
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	/*background-color: #ff0089;*/
+	/*font-size: 16px; 1em = 16px*/
+	/*position: relative;*/
+	color:#333;
+	line-height: 0;
+}
+
+header img {
+	float:left;
+	width: 150px;
+	padding: 1.2em 2em;
+/*	margin: 1em;*/
+}
+
+nav {
+	float:right;
+}
+
+nav a {
+		font-size: 1.25em;
+		font-weight: 400;
+		color: #fda486;
+		padding: 1.2em 2em;
+		text-decoration: none;
+		display: inline-block;
+}
+
+
+
+section {
+	/*padding:50px 0;*/
+}
+
+footer {
+	font: Montserrat;
+	background-size: cover;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: 900;
+	background: #0f4dbc;
+	color: #fda486;;
+	height: 5em;
+	padding:2.5em 0;
+	clear: both;
+}
+
+
+nav, h1, h3, p, footer {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+h1 {
+	font-weight: 500;
+	line-height: 1.2;
+    width: 38%;
+    margin: auto;
+}
+
+/*h3 {
+	color: white;
+	font-size:1.875em;
+	font-weight: 500;
+	line-height: 1.2;
+	text-align:left;
+	letter-spacing: -0.0125em;
+	position: absolute;
+	top: .6em;
+	left: .6em;
+}
+
+p {
+	color: white;
+	font-size:1.375em;
+	font-weight: 300;
+	line-height: 1.2;
+	text-align:left;*/
+/*	padding: 0 20px;*/
+/*	margin: 40px;*/
+/*	position: absolute;
+	top: 2.8em;
+	left: .8em;
+}*/
+
+
+img {
+	width: 100%;
+}
+
+a:hover {
+	color: #f1c207;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
+
+#lander {
+	background:#0f4dbc;
+	color:#fd9a96;
+	padding: 10em 0;
+	text-align: center;
+	font-size: 2em;
+}
+
+#door {
+	width:50%;
+	float: left;
+}
+
+#FN4M {
+	width:50%;
+	float: left;
+}
+
+#integrate {
+	width:50%;
+	float: left;
+}
+
+#into {
+	width:50%;
+	float: left;
+}
+
+#bma {
+	width:50%;
+	float: left;
+}
+
+#seenconnects {
+	width:50%;
+	float: left;
+}
+
+#tablet {
+	display: none;
+}
+
+@media only screen and (max-width: 973px) {
+	h1 {
+		width: 70.2%;
+	font-size: 1.1em;
+	}
+	}
+
+@media only screen and (max-width: 780px) {
+	header img {
+	width: 150px;
+	position: center;
+	padding: 1em 2em;
+	margin: 1em;
+}
+
+nav a {
+	float: none;
+	width: auto;
+	padding: 1em 1.5em;
+	display: none;
+}
+
+#tablet {
+	display: block;
+}
+
+nav:hover a {
+	display: block;
+}
+
+footer{
+	font-size: .9em;
+}
+}
+
+@media only screen and (max-width: 661px) {
+	h1 {
+		width: 80%;
+	font-size: 1em;
+	}
+
+	#door {
+		float: none;
+		width:auto;
+	}
+
+	#FN4M {
+		float: none;
+		width:auto;
+	}
+
+	#integrate {
+	float: none;
+	width: auto;	
+	}
+
+	#into {
+	float: none;
+	width: auto;
+	}
+
+	#bma {
+	float: none;
+	width: auto;
+	}
+
+	#seenconnects {
+	float: none;
+	width: auto;
+	}
+	}
+
+@media only screen and (max-width: 480px) {
+	header img {
+	width: 150px;
+/*	padding: 1em 2em;*/
+/*	margin: 1em;*/
+}
+
+h1 {
+	width: 78%;
+	font-size: .9em;
+}
+}

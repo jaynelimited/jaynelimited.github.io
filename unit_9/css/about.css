@@ -31,8 +31,9 @@ nav a {
 		display: inline-block;
 }
 
-nav, h1, h3, p, footer {
+nav, h1, h2, h3, p, footer {
 	font-family: 'Montserrat', 'Arial', sans-serif;
+	line-height: 1.2em;
 }
 
 h1 {
@@ -40,6 +41,16 @@ h1 {
 	line-height: 1.2;
     width: 38%;
     margin: auto;
+    color: white;
+    text-align: center;
+    padding: 8em 0em 0em;
+    margin: 0em 0em .5em 0em;
+}
+
+p {
+	text-align: center;
+	font-weight: 400;
+	width: 50%;
 }
 
 footer {
@@ -57,4 +68,25 @@ footer {
 
 #Who {
 	background:#0f4dbc;
+	width: 100%;
+	height: 800px;
+	padding: 10em;
+}
+
+#What {
+	background:#bfe3da;
+	width: 100%;
+	height: 800px;
+}
+
+#Values {
+	background:#0f4dbc;
+	width: 100%;
+	height: 800px;
+}
+
+#Relationships {
+	background:#bfe3da;
+	width: 100%;
+	height: 800px;
 }

@@ -161,9 +161,7 @@ a:hover {
 @media only screen and (max-width: 780px) {
 	header img {
 	width: 150px;
-	position: center;
-	padding: 1em 2em;
-	margin: 1em;
+	padding: 1.2em 2em;
 }
 
 nav a {
@@ -186,7 +184,12 @@ footer{
 }
 }
 
-@media only screen and (max-width: 661px) {
+@media only screen and (max-width: 660px) {
+	header img {
+		width: 150px;
+		padding: 1.2em 2em;
+	}
+
 	h1 {
 		width: 80%;
 	font-size: 1em;
@@ -225,8 +228,8 @@ footer{
 
 @media only screen and (max-width: 480px) {
 	header img {
-	width: 150px;
-/*	padding: 1em 2em;*/
+	width: 114px;
+	padding: 1em;
 /*	margin: 1em;*/
 }
 

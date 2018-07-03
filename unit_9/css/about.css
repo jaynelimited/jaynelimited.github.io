@@ -1,0 +1,60 @@
+@font-face { 
+	font-family: 'Montserrat'; src: url('../font/Montserrat'); }
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	background:#76ffff;
+	line-height: 0;
+}
+
+header img {
+	float:left;
+	width: 150px;
+	padding: 1.2em 2em;
+/*	margin: 1em;*/
+}
+
+nav {
+	float:right;
+}
+
+nav a {
+		font-size: 1.25em;
+		font-weight: 400;
+		color: #fda486;
+		padding: 1.2em 2em;
+		text-decoration: none;
+		display: inline-block;
+}
+
+nav, h1, h3, p, footer {
+	font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+h1 {
+	font-weight: 500;
+	line-height: 1.2;
+    width: 38%;
+    margin: auto;
+}
+
+footer {
+	font: Montserrat;
+	background-size: cover;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: 900;
+	background: #0f4dbc;
+	color: #fda486;;
+	height: 5em;
+	padding:2.5em 0;
+	clear: both;
+}
+
+#Who {
+	background:#0f4dbc;
+}

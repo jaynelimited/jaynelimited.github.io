@@ -38,10 +38,10 @@ nav, h1, h2, h3, p, footer {
 
 h1 {
 	font-weight: 500;
-	line-height: 1.2;
     width: 38%;
-    margin: auto;
-    color: white;
+    padding: 0 0 0 0em;
+    /*margin: auto;*/
+    color: #0f4dbc;
     text-align: center;
     padding: 8em 0em 0em;
     margin: 0em 0em .5em 0em;
@@ -49,8 +49,11 @@ h1 {
 
 p {
 	text-align: center;
+	font-size: 2em;
 	font-weight: 400;
 	width: 50%;
+	color: #fda486;
+	padding-top: 1em;
 }
 
 footer {
@@ -60,11 +63,13 @@ footer {
 	font-size: 1.25em;
 	font-weight: 900;
 	background: #0f4dbc;
-	color: #fda486;;
+	color: #fda486;
 	height: 5em;
 	padding:2.5em 0;
 	clear: both;
 }
+
+
 
 #Who {
 	background:#0f4dbc;
@@ -77,16 +82,24 @@ footer {
 	background:#bfe3da;
 	width: 100%;
 	height: 800px;
+	padding: 4em;
 }
 
 #Values {
 	background:#0f4dbc;
 	width: 100%;
 	height: 800px;
+	padding: 4em;
 }
 
 #Relationships {
 	background:#bfe3da;
 	width: 100%;
 	height: 800px;
+	padding: 4em;
+}
+
+#whohead {
+	color: white;
+	line-height: 4em;
 }

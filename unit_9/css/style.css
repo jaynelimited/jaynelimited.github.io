@@ -34,7 +34,10 @@ nav a {
 		display: inline-block;
 }
 
-
+section a:hover {
+	color: #ffce3a;
+	opacity: 0.8;
+}
 
 section {
 	/*padding:50px 0;*/
@@ -63,6 +66,7 @@ h1 {
 	line-height: 1.2;
     width: 38%;
     margin: auto;
+
 }
 
 /*h3 {
@@ -177,6 +181,7 @@ nav a {
 
 nav:hover a {
 	display: block;
+	text-align: right;
 }
 
 footer{
